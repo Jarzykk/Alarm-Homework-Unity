@@ -22,11 +22,11 @@ public class Alarm : MonoBehaviour
         {
             if(_decreaseAlarmVolume == true)
             {
-                ChangeSoundVolume(_alarmSound, 1, 0.0000f);
+                ChangeSoundVolume(_alarmSound, 1, 0);
             }
             else if(_decreaseAlarmVolume == false)
             {
-                ChangeSoundVolume(_alarmSound, 0, 1f);
+                ChangeSoundVolume(_alarmSound, 0, 1);
             }
 
             if (_alarmSound.volume == 0)
